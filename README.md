@@ -24,7 +24,7 @@ idf.py -p PORT flash
 idf.py -p PORT monitor
 ```
 
-You can also execute all above commands at once: `idf.py build -DSSID_VALUE=1 flash monitor`
+You can also execute all above commands at once: `idf.py build -DSSID_VALUE=1 flash monitor`. \
 The AP's ssid will be ```ESP32_AP<SSID_VALUE>```.
 
 ## Miscs
