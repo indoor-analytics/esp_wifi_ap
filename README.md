@@ -8,7 +8,7 @@ This project aims at creating Wi-Fi's access points (AP) using ESP32.
     * Make sure to use at least idf `v4.4` (which officially includes `esp32s3` support)
 * Have an `ESP32-S3` board
 * If flashing from linux, make sure you have permissions to access usb ports: 
-    * ```sudo usermod -a -G dialout $USER``` 
+    * ```sudo usermod -a -G dialout $USER && sudo usermod -a -G plugdev $USER``` 
     * Then reboot
 
 ## Run project
