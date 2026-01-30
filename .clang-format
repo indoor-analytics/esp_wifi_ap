@@ -1,0 +1,37 @@
+# .clang-format
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+PointerAlignment: Left
+
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: false
+  AfterClass: true
+  AfterControlStatement: false
+  AfterNamespace: true
+  BeforeCatch: false
+  BeforeElse: false
+
+ColumnLimit: 180
+
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpaceBeforeAssignmentOperators: true
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+
+SortIncludes: true
+IncludeBlocks: Preserve
+
+AllowShortCaseLabelsOnASingleLine: false
+DerivePointerAlignment: false
+IndentCaseLabels: true
